@@ -1,0 +1,119 @@
+textarea:focus,
+textarea:active {
+  outline: 0px !important;
+  box-shadow: none !important;
+}
+body {
+  overflow-x: hidden;
+}
+#image {
+  color: rgba(29, 161, 242, 1);
+  size: 9px;
+}
+
+.nav-btn-circle{
+     
+  background-color:rgba(29, 161, 242, 1);
+  border: none;
+  color:#ffffff;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 14px 2px;
+  cursor: pointer;
+  border-radius: 50px; 
+  
+}
+.btn-circle {
+  background-color: rgba(29, 161, 242, 1);
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.far.fa-heart:hover {
+  color: red !important;
+}
+
+.fa-comment:hover {
+  color: rgba(29, 161, 242, 1) !important;
+}
+.fa-retweet:hover {
+  color: green !important;
+}
+.fa-bookmark:hover {
+  color: orange !important;
+}
+
+.image-upload > input {
+  display: none;
+}
+
+.red {
+  color: red;
+}
+
+.grey {
+  color: grey;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+
+.tweet-container {
+  cursor: pointer;
+}
+
+.tweetWrite {
+  border: 0.09px solid #80808052;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  max-height: 220px;
+}
+
+.homeHeading,
+.tweetHeading {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.homeComponent,
+.tweetComponent {
+  padding-left: 0px !important;
+}
+
+.likeRetweetCount {
+  height: 40px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.blue {
+  color: rgba(29, 161, 242, 1);
+}
+.bolder {
+  font-weight: bolder;
+}
+.normal {
+  font-weight: normal;
+}
+
+.tweetImage {
+  border-radius: 30px;
+  width: 100%;
+  height: 350px;
+}

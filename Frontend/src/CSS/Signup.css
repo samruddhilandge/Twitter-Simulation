@@ -1,0 +1,39 @@
+.leftHome{
+    float: left;  
+    
+}
+.input {
+    padding: 20px;
+    float: center;
+    clear: both;
+  }
+.password{
+    color : #BFC9CA ;
+    font-size: 14px;
+}
+.signup{
+    margin-top: 80px; 
+    padding: 60px;
+    float: center;
+    clear: both;
+}
+.font{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 40px 
+}
+.button{
+        border-radius: 100px;
+        box-shadow: none;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        padding: 6px 16px;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #fff;
+        border: 1px solid #1da1f2;
+        color: #1da1f2;
+}
+

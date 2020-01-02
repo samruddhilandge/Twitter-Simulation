@@ -1,0 +1,187 @@
+.coverImageStyle {
+  bottom: 0px;
+  height: 100%;
+  top: 30px;
+  width: 100%;
+  z-index: -1;
+}
+.img-thumbnail {
+  padding: 0.25rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  max-width: 80%;
+  height: 150px;
+  margin-top: -15%;
+}
+
+.editButton {
+  border-radius: 100px;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-right: 15px;
+  padding: 6px 16px;
+  float: right;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+}
+.followButton {
+  border-radius: 100px;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-right: 15px;
+  padding: 6px 16px;
+  float: right;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+  color: white;
+}
+.followButton::after {
+  content: "Following";
+}
+.followButton:hover {
+  background-color: #f21d41;
+  border: 1px solid #f21d41;
+  color: white;
+}
+
+.followButton:hover::after {
+  content: "Unfollow";
+}
+#profileTweets-tab-tweets {
+  width: 33.33%;
+}
+
+#profileTweets-tab-replies {
+  width: 33.33%;
+}
+
+#profileTweets-tab-likes {
+  width: 33.33%;
+}
+/* }
+    border-bottom-color: rgb(29, 161, 242);
+
+    border-bottom-width: 2px;
+
+    border-bottom-style: solid;
+
+    outline-style: none;
+
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+
+    transition-property: background-color, box-shadow;
+
+    transition-duration: 0.2s;
+
+    cursor: pointer;
+
+    -webkit-box-align: center;
+    align-items: center;
+
+    -webkit-box-pack: center;
+    justify-content: center;
+
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+
+    display: flex;
+
+    align-items: stretch;
+    border: 0 solid black;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 0;
+
+    cursor: pointer;
+
+    background-color: rgba(0, 0, 0, 0);
+    color: inherit;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: inherit;
+    font: inherit;
+    list-style: none;
+    text-decoration: none;
+
+    color: rgb(0, 75, 145);
+    cursor: pointer;
+    text-decoration: none;
+
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+
+    pointer-events: auto;
+
+    pointer-events: auto;
+
+    pointer-events: auto;
+
+    pointer-events: none!important;
+    font-size: 15px;
+
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    color: -internal-root-color;
+} */
